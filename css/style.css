@@ -1,0 +1,135 @@
+:root {
+    --main-color: #323232;
+    --font-white: #C0C0C0;
+    --footer-font-grey: #949494;
+    /* 내부 */
+    --squre: #f6f6f6;
+    --hr: #666;
+    --video-color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+}
+header { 
+    z-index: 1;
+    position: relative;
+}
+.menu-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px 0 80px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.search-icon {
+    background: url(../img/search.svg);
+    background-size: cover;
+    background-position: center;
+    width: 18px;
+    height: 16px;
+    box-sizing: border-box;
+    display: flex;
+    opacity: 0.8;
+}
+.search-icon:hover {
+    opacity: 1;
+}
+.main-logo {
+    background: url(../img/main-logo.png);
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 36px;
+    box-sizing: border-box;
+    display: flex;
+}
+.mypage-icon {
+    background: url(../img/mypage.svg);
+    background-size: cover;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    margin: 0 14px 0 0;
+    display: flex;
+    opacity: 0.8;
+}
+.mypage-icon:hover {
+    opacity: 1;
+}
+.cart-icon {
+    background: url(../img/cart.svg);
+    background-size: cover;
+    background-position: center;
+    width: 18px;
+    height: 22px;
+    box-sizing: border-box;
+    margin: 0 0 0 14px;
+    display: flex;
+    opacity: 0.8;
+}
+.cart-icon:hover {
+    opacity: 1;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 28px;
+}
+.main-nav li{
+    display: flex;
+    padding: 0 12px 0 12px;
+}
+.main-nav li a{
+    color: var(--font-white);
+}
+.main-nav li :hover {
+    color: #fff;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg {
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+video {
+    width: 100%;
+
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text p {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Jacques Francois', serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 60px;
+}
