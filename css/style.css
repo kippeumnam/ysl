@@ -514,3 +514,31 @@ hr {
 }
 
 /* 1540 */
+@media(max-width:1540px) {
+    .page-product li:first-child {
+        display: none;
+    }
+    .img-left {
+        margin: 20px;
+    }
+    .footer-nav div {
+        margin: 0 1% 1% 1%;
+    }
+  }
+  @media(max-width:1270px) {
+    .page-product li:last-child {
+        display: none;
+    }
+    .img-left {
+        margin: 20px;
+    }
+    .footer-nav div {
+        margin: 0 1% 1% 1%;
+    }
+  }
+/* 
+  1.로고 중앙정렬
+  2.메인비디오와 다음 아티클이 넘치는이유
+  3.a클릭영역
+  4.자연스러운 미디어쿼리 반응형으로 바꾸는방법
+  5.퍼센트로 마진넣었을때 글씨가 다음줄로 넘어가는 이유 */
